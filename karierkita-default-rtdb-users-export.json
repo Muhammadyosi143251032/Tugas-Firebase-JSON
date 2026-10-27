@@ -1,0 +1,32 @@
+{
+  "2024001": {
+    "created_at": "2026-10-26 09:15:00",
+    "email": "alyaputri@student.ac.id",
+    "id_user": "2024001",
+    "jurusan": "Bisnis Digital",
+    "nama": "Alya Putri",
+    "nim": "2024001",
+    "role": "User",
+    "status": "Aktif"
+  },
+  "2024002": {
+    "created_at": "2026-10-26 10:30:00",
+    "email": "budisantoso@student.ac.id",
+    "id_user": "2024002",
+    "jurusan": "Bisnis Digital",
+    "nama": "Budi Santoso",
+    "nim": "2024002",
+    "role": "User",
+    "status": "Aktif"
+  },
+  "143251032": {
+    "created_at": "2026-10-26 08:00:00",
+    "email": "muhammadyosi143251032@student.ac.id",
+    "id_user": "143251032",
+    "jurusan": "Bisnis Digital",
+    "nama": "Muhammad Yosi",
+    "nim": "143251032",
+    "role": "Admin",
+    "status": "Aktif"
+  }
+}

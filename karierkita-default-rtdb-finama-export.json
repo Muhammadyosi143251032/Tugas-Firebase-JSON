@@ -1,0 +1,86 @@
+{
+  "anggaran": {
+    "ANG001": {
+      "batas_nominal": 1500000,
+      "id_anggaran": "ANG001",
+      "id_kategori": "KAT002",
+      "id_user": "143251032",
+      "periode": "Oktober 2026",
+      "sisa_anggaran": 750000,
+      "status": "Aman",
+      "terpakai": 750000
+    },
+    "ANG002": {
+      "batas_nominal": 1000000,
+      "id_anggaran": "ANG002",
+      "id_kategori": "KAT003",
+      "id_user": "2024001",
+      "periode": "Oktober 2026",
+      "sisa_anggaran": 650000,
+      "status": "Aman",
+      "terpakai": 350000
+    },
+    "ANG003": {
+      "batas_nominal": 5000000,
+      "id_anggaran": "ANG003",
+      "id_kategori": "KAT001",
+      "id_user": "2024002",
+      "periode": "Oktober 2026",
+      "sisa_anggaran": 2500000,
+      "status": "Target Tercapai 50%",
+      "terpakai": 2500000
+    }
+  },
+  "kategori": {
+    "KAT001": {
+      "deskripsi": "Sumber dana masuk utama dan proyek",
+      "id_kategori": "KAT001",
+      "nama_kategori": "Pendapatan & Beasiswa",
+      "tipe": "Pemasukan"
+    },
+    "KAT002": {
+      "deskripsi": "Kebutuhan kuliah, buku, dan praktikum",
+      "id_kategori": "KAT002",
+      "nama_kategori": "Pendidikan & Akademik",
+      "tipe": "Pengeluaran"
+    },
+    "KAT003": {
+      "deskripsi": "Biaya langganan cloud, internet, dan perangkat",
+      "id_kategori": "KAT003",
+      "nama_kategori": "Teknologi & Operasional",
+      "tipe": "Pengeluaran"
+    }
+  },
+  "transaksi": {
+    "TRX001": {
+      "id_kategori": "KAT001",
+      "id_transaksi": "TRX001",
+      "id_user": "143251032",
+      "jenis": "Pemasukan",
+      "judul": "Pemasukan Beasiswa & Freelance Web",
+      "keterangan": "Dana masuk proyek T1 VibeCoding",
+      "nominal": 2500000,
+      "tanggal": "2026-10-20"
+    },
+    "TRX002": {
+      "id_kategori": "KAT002",
+      "id_transaksi": "TRX002",
+      "id_user": "2024001",
+      "jenis": "Pengeluaran",
+      "judul": "Pembayaran UKT & Modul Kuliah",
+      "keterangan": "Pembelian buku referensi Cloud & Firebase",
+      "nominal": 750000,
+      "tanggal": "2026-10-22"
+    },
+    "TRX003": {
+      "id_kategori": "KAT003",
+      "id_transaksi": "TRX003",
+      "id_user": "2024002",
+      "jenis": "Pengeluaran",
+      "judul": "Langganan Cloud Server & Hosting",
+      "keterangan": "Upgrade layanan server project",
+      "nominal": 350000,
+      "tanggal": "2026-10-25"
+    }
+  }
+}
